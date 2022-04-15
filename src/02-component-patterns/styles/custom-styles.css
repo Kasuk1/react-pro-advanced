@@ -17,3 +17,9 @@
   border-color: #fff;
   color: #fff;
 }
+
+.shopping-cart {
+  position: fixed;
+  top: 0;
+  right: 10px;
+}

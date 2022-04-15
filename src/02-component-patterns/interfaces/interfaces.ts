@@ -21,3 +21,12 @@ export interface IProductCardHOC {
   Image: (props: IProductImage) => JSX.Element;
   Buttons: (props: IProductButtons) => JSX.Element;
 }
+
+export interface IOnChangeArgs {
+  product: IProduct;
+  count: number;
+}
+
+export interface IProductInCart extends IProduct {
+  count: number;
+}
