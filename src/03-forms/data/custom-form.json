@@ -1,0 +1,70 @@
+[
+  {
+    "type": "input",
+    "name": "firstName",
+    "placeholder": "Lucero",
+    "label": "First Name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "lastName",
+    "placeholder": "Herrera",
+    "label": "Last Name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      }
+    ]
+  },
+  {
+    "type": "email",
+    "name": "email",
+    "placeholder": "luh@hotmail.com",
+    "label": "Email",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "email"
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "name": "favouriteGame",
+    "label": "Favourite Game",
+    "value": "",
+    "options": [
+      {
+        "id": 1,
+        "label": "Super Smash Bros"
+      },
+      {
+        "id": 2,
+        "label": "Warframe"
+      },
+      {
+        "id": 3,
+        "label": "Overwatch"
+      }
+    ],
+    "validations": [
+      {
+        "type": "required"
+      }
+    ]
+  }
+]
